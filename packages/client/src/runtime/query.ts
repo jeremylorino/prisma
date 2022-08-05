@@ -795,7 +795,10 @@ export function makeDocument({ dmmf, rootTypeName, rootField, select }: Document
   return new Document(rootTypeName, children) as any
 }
 
-// TODO: get rid of this function
+/**
+ * @deprecated
+ * TODO: get rid of this function
+ * */
 export function transformDocument(document: Document): Document {
   return document
 }
